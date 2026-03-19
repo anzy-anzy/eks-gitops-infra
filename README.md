@@ -114,7 +114,33 @@ The following AWS resources have been created:
 <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/b840c594-33cf-4e0f-8d2d-85a1b3d8f974" />
 <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/0226441c-5bd6-4efb-bdc7-c48e39d5a005" />
 
+## ✅ Phase 2 Progress — Vault Setup
 
+HashiCorp Vault has been installed and verified on the dedicated EC2 instance.
+
+### Completed
+- Installed Vault on the Vault EC2 instance
+- Started Vault in development mode
+- Accessed Vault UI successfully
+- Authenticated with the root token
+- Verified Vault status from the CLI
+- Stored and retrieved test secrets at `secret/myapp`
+
+### Example test secret
+- `username = admin`
+- `password = supersecret123`
+
+### Verification commands
+
+```bash
+export VAULT_ADDR="http://127.0.0.1:8200"
+export VAULT_TOKEN="root"
+vault status
+vault kv get secret/myapp
+```
+<img width="1470" height="883" alt="Screenshot 2026-03-19 at 11 39 32" src="https://github.com/user-attachments/assets/24d858ef-0ce1-409c-beff-04a3dc169206" />
+
+<img width="1365" height="831" alt="Screenshot 2026-03-19 at 12 04 36" src="https://github.com/user-attachments/assets/9bb252e8-f140-48d1-abe5-0cce37bb742f" />
 
 
 
