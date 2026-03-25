@@ -47,8 +47,9 @@ terraform fmt
 terraform validate
 terraform plan
 ```
+
 <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/77cd5591-e20a-47d9-9e22-1b16148a80f4" />
-```
+
 ```bash
 terraform apply
 ```
