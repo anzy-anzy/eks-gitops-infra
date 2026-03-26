@@ -1,4 +1,4 @@
-# AWS EKS GitOps DevOps Platform — Infrastructure Phase
+# AWS EKS GitOps DevOps Platform, Infrastructure Phase
 
 This repository contains the Infrastructure as Code for provisioning the base AWS environment for an end-to-end GitOps DevOps platform.
 
@@ -53,11 +53,6 @@ terraform plan
 ```bash
 terraform apply
 ```
-# 🚀 AWS EKS GitOps DevOps Platform — Infrastructure Phase (Completed)
-
-This repository contains the Terraform code used to provision the core AWS infrastructure for a production-style GitOps DevOps platform.
-
----
 
 ## ✅ Current Status
 
@@ -143,5 +138,15 @@ vault kv get secret/myapp
 
 <img width="1365" height="831" alt="Screenshot 2026-03-19 at 12 04 36" src="https://github.com/user-attachments/assets/9bb252e8-f140-48d1-abe5-0cce37bb742f" />
 
+## 📌 Next Platform Phases
+- With the infrastructure now provisioned, the platform can evolve to include:
+
+- GitHub Actions CI pipelines
+- ArgoCD GitOps continuous deployment
+- Kubernetes application deployments
+- Monitoring and observability (Prometheus + Grafana)
+- Production ingress and HTTPS routing
+
+These components are implemented in the **platform repository.**
 
 
