@@ -1,3 +1,5 @@
+<img width="6426" height="2476" alt="image" src="https://github.com/user-attachments/assets/e2ff89be-a80a-4f0e-88f9-0537c532c2c5" />
+
 # AWS EKS GitOps DevOps Platform, Infrastructure Phase
 
 This repository contains the Infrastructure as Code for provisioning the base AWS environment for an end-to-end GitOps DevOps platform.
